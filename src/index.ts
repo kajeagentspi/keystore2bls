@@ -8,7 +8,7 @@ import fs from "fs";
 
 const main = async() =>{
     if (process.argv.length < 4) {
-        console.log("Usage: npm start src/index.ts <keystore file> <password>");
+        console.log("Usage: npm start <keystore file> <password>");
         return;
     }
     const keystoreFileName = process.argv[2];

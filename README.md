@@ -1,4 +1,4 @@
-# Project Name
+# keystore2bls
 
 This script converts keystore files to bls
 
@@ -17,7 +17,7 @@ This script converts keystore files to bls
 ## Usage
 
 ```
-    npm start src/index.ts <keystore file> <password>
+    npm start <keystore file> <password>
 ```
 
 ## License

@@ -1,0 +1,19 @@
+{
+  "name": "keystore2bls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@chainsafe/bls-keystore": "^3.0.1",
+    "ethereum-cryptography": "^2.2.1",
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.2"
+  }
+}
